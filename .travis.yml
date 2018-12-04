@@ -1,4 +1,8 @@
 language: node_js
+branches:
+  only:
+    - master
+    - fix/set-offset
 cache:
   directories:
     - node_modules
